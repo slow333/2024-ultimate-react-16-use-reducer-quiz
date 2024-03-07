@@ -1,11 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
 import DateCounter from "./DateCounter";
-
+import ReactQuiz from "./ReactQuiz";
 function App() {
+
   return (
-    <div>
-      <DateCounter/>
+    <div className='app'>
+      <ReactQuiz/>
     </div>
   );
 }

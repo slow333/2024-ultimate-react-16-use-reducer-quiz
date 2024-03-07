@@ -62,7 +62,7 @@ img {
 }
 
 h1 {
-  font-family: "Codystar";
+  font-family: "Codystar", serif;
   font-size: 5.6rem;
 }
 
@@ -257,3 +257,5 @@ progress {
   font-size: inherit;
   padding: 0.8rem;
 }
+/* custom css*/
+
