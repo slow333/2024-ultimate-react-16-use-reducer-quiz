@@ -7,3 +7,4 @@
 ## local에서 가상으로 api 서버를 기동해서 시험용으로 사용하는 방법
 ### npm i json-server 
 ### package.json => "scripts" => "server": "json-server --watch data/[name].json --port 9909
+#### npm run server
