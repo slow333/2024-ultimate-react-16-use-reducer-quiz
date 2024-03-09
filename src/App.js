@@ -1,5 +1,4 @@
-import DateCounter from "./DateCounter";
-import ReactQuiz from "./ReactQuiz";
+import ReactQuiz from "./components/ReactQuiz";
 function App() {
 
   return (
