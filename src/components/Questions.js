@@ -1,7 +1,11 @@
-export function Questions({question, children}) {
+import {useQuiz} from "../context/QuizContext";
+
+export function Questions({children}) {
+  const {questions, step} = useQuiz();
+
   return (
     <div>
-      <h4>{question.question}</h4>
+      <h4>{questions[step - 1].question}</h4>
       {children}
     </div>)
 }

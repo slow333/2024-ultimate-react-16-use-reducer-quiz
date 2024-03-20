@@ -1,11 +1,6 @@
 import {v4 as uuidv4} from "uuid";
-import {useQuiz} from "../context/QuizContext";
 
-function Options() {
-
-  const {questions, answer, step, dispatch} = useQuiz();
-
-  const question = questions[step - 1]
+function Options({question, answer, dispatch}) {
 
   const hasAnswer = answer !== null;
 

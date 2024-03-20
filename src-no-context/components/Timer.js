@@ -1,10 +1,8 @@
 import {useEffect, useState} from "react";
-import {useQuiz} from "../context/QuizContext";
+import Progress from "./Progress";
 
-function Timer() {
-
-  const { questions,dispatch } = useQuiz();
-  const [remain, setRemain] = useState(questions.length * 1);
+function Timer({dispatch, questions}) {
+  const [remain, setRemain] = useState(questions.length * 15)
 
   useEffect(() => {
     const intervalId = setInterval(function () {

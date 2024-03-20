@@ -1,8 +1,5 @@
-import {useQuiz} from "../context/QuizContext";
-
-export default function Progress() {
-  const {step, points, dispatch,
-    sumPoints, numQuestions} = useQuiz();
+export default function Progress(
+  {step, points, dispatch, sumPoints, numQuestions}) {
 
   return (
     <div className='progress'>
